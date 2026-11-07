@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini projet
+    </title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="form" novalidate>
+        <label for="nom">Nom :</label>
+        <input id="nom">
+        <label for="montant"> le Montante :</label>
+        <input id="montant" type="number">
+        <select id="cat">
+            <option value="">food</option>
+            <option value="">transport</option>
+            <option value="">loisirs</option>
+        </select>
+        <button class="filtre" data-cat="tous">
+            tout
+        </button>
+        <button class="filtre" data-cat="food">
+            food
+        </button>
+        <button class="filtre" data-cat="transport">
+            transport
+        </button>
+        <button class="filtre" data-cat="loisirs">
+            loisirs
+        </button>
+        <button type="reset">ajoute</button>
+        <ul id="liste"></ul>
+        <p id="total">
+            
+
+
+
+
+    </form>
+
+</body>
+
+</html>
