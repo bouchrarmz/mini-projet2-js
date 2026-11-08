@@ -7,7 +7,7 @@
     <title>mini projet
     </title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stayle.css">
 </head>
 
 <body>
@@ -17,13 +17,18 @@
         <label for="montant"> le Montante :</label>
         <input id="montant" type="number">
         <select id="cat">
-            <option value="">food</option>
-            <option value="">transport</option>
-            <option value="">loisirs</option>
+            <option>food</option>
+            <option>transport</option>
+            <option>loisirs</option>
         </select>
+        <p id="erreur"></p>
+        <button type="">ajoute</button>
+         </form>
+        <div id ='filtres'>
         <button class="filtre" data-cat="tous">
             tout
         </button>
+        
         <button class="filtre" data-cat="food">
             food
         </button>
@@ -33,15 +38,19 @@
         <button class="filtre" data-cat="loisirs">
             loisirs
         </button>
-        <button type="reset">ajoute</button>
-        <ul id="liste"></ul>
+        </div>
+        
+        <ul id="liste">
+            <li>moi</li>
+            <li>toi</li>
+        </ul>
         <p id="total">
             
 
 
 
 
-    </form>
+   
 
 </body>
 
